@@ -12,3 +12,16 @@ function zipChecker() {
     }
     document.getElementById('result').innerHTML = text;
 }
+
+// Displays advertisement after five seconds of loading page
+
+function showAd() {
+    document.getElementById('bannerAd').style.display = "block";
+}
+setTimeout(showAd, 5000);
+
+//Close advertisement
+
+function cancelAd() {
+    document.getElementById('bannerAd').style.display = "none";
+}
