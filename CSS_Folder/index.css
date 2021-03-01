@@ -1,0 +1,41 @@
+.copyright {
+    text-align:center;
+}
+
+footer {
+    position:absolute;
+    left:auto;
+    bottom:auto;
+    width:97%;
+    background-color: rgb(39.35,35);
+    color: white;
+    margin-top: 0;
+    padding: 10px 0;
+    font-family: 'parkavenue', cursive;
+}
+
+a:link {
+    color: green;
+    font-size: 14pt;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: blue;
+}
+
+.feature-text {
+    position: abolsute;
+    top: 25%;
+    left: 25%;
+    color: beige;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+}
