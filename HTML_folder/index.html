@@ -7,15 +7,69 @@
   </head>
   <body>
     <div id="bannerAd">
-      <span class="closeAd" onclick="cancelAd()">(x)</span>
-      <a href ="https://www.godiva.com" target="_blank"><img class="adimg" src="godivaadvertisement.jpg" alt="Advertisement"></a>
+        <span class="closeAd" onclick="cancelAd()">[x]</span>
+        <a href="https://www.godiva.com" target="_blank"><img class="adimg" src="godivaadvertisment.jpg" alt="Advertisement" /></a>
     </div>
 
     <header class="logoadvertising">
-        <a href="index.html"></a>
-    </header>
+            <a href="index.html"><img src="foodarlogo1.dms" /></a>
+            <nav class="top">
+                <ul class="tmenu">
+                    <li><a class="tsite" href="#">Sign-In</a></li>
+                    <li><a class="tsite" href="register.html">Register</a></li>
+                    <li><a class="tsite" href="request.html">Request</a></li>
+                </ul>
+            </nav>
+    </header> 
 
 
+    <div class="imgrecipe">
+        <img width=97% height=450 src="feature.jpg" alt="Premire Dish" />
+    </div>
+    <div class="feature-text">
+        <h2 style="text-align:center; color:white;">Try A New Meal Today</h2>
+    </div>
 
-  </body>
+    <div class="driver">
+    <div>
+        <h2>Find a driver near you!</h2>
+        <p>Type in your zipcode below and click "Go!" to find a driver near you.</p>
+    </div>
+
+    <div style="column-count:1;">
+            <input id="zipCode" name="zipcode" type="text" placeholder="11111" value="" required>
+            <button onclick="zipChecker()" name="button">Go!</button>
+            <p id="result"></p>
+    </div>
+    </div>
+
+
+    <footer> 
+            <table width="100%">
+                <tr>
+                    <th>Site Map</a></th>
+                    <th>Legal</th>
+                    <th><a href="about.html">Lucky you:)</a></th>
+                </tr>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td>Privacy Policy</td>
+                    <td>Contact Us</td>
+                    
+                </tr>
+                <tr>    
+                    <td><a href="register.html">Register</a></td>
+                    <td>Terms & Conditions</td> 
+                 </tr>
+                <tr>
+                    <td><a href="request.html">Request</a></td>
+                </tr>
+            </table>
+            <div class="copyright">
+                <p style="font-weight:bold">&copy; Copyright 2021 Flatiron School</p>
+                <p>All rights reserved.</p>
+                <p>Written & Coded by Caroline Forrester</p>
+            </div>
+        </footer> 
+</body>
 </html>
