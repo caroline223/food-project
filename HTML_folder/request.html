@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="request.css" type="text/css" />
+    <title>Request Page</title>
+    </head>
+    <body>
+            <header class="logoadvertising">
+                    <a href="index.html"><img src="foodarlogo1.dms" /></a>
+                    <nav class="top">
+                        <ul class="tmenu">
+                            <li><a class="tsite" href="#">Sign-In</a></li>
+                            <li><a class="tsite" href="register.html">Register</a></li>
+                            <li><a class="tsite" href="request.html">Request</a></li>
+                        </ul>
+                    </nav>
+            </header> 
+
+    <div class="heading">
+        <h1>Submit Your Request</h1>
+    </div>
+
+    <div class="underline"></div>
+        <br>
+        <p style="font-family:'Florence', cursive;">Please fill out the form below.</p>
+        <br>
+        <form method="POST" id="choiceForm" >
+            <h3>Address:</h3>
+            <div >
+               <input class="fill-in" type="email" required placeholder="Email" style="width:600px" />
+            </div>
+        <br>
+            <h3>Choose Your Style:</h3>
+            <div class="row">
+                <div class="column">
+                    <p>Classic</p> 
+                    <p>This is a classic treatment</p>
+                    <input class="food-style" type='radio' name="rest-style" value="3" />
+                </div>
+                <div class="column">
+                    <p>Premium</p> 
+                    <p>pinky's up</p>
+                    <input class="food-style" type='radio' name="rest-style" value="5" />
+                </div>  
+                <div class="column">
+                    <p>Royal</p> 
+                    <p>Your food is served on a silver platter</p>
+                    <p>Literally</p>
+                    <input class="food-style" type='radio' name="rest-style" value="10" />
+                </div>  
+            </div>
+            <h3> Restaurant:</h3>
+            <div>
+                <input class="fill-in" type="text" required placeholder="Name" style="width:600px" />
+            </div>
+            <br>
+            <h3>Tip:</h3>
+            <div class="row">
+                    <div class="column">
+                        <p>10%</p> 
+                        <p>They did their job.</p>
+                        <input class="tip-calculated" type='radio' name="tip" value=".1" />
+                    </div>
+                    <div class="column">
+                        <p>15%</p> 
+                        <p>They made you feel special</p>
+                        <input class="tip-calculated" type='radio' name="tip" value=".15" />
+                    </div>  
+                    <div class="column">
+                        <p>20%</p> 
+                        <p>I wanna give them more, but this is all I have!</p>
+                        <input class="tip-calculated" type='radio' name="tip" value=".2" />
+                    </div>  
+                </div>
+            <br>
+        
+            <div>
+                <h3 style="text-align:center;">Total: $<span id="totalCost">0</span></h3>
+                <button style="display:block; margin: 0 auto;" type="submit" name="submit" value="submit">REQUEST</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <footer> 
+                <table width="100%">
+                    <tr>
+                        <th>Site Map</a></th>
+                        <th>Legal</th>
+                        <th><a href="about.html">Lucky you:)</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td>Privacy Policy</td>
+                        <td>Contact Us</td>
+                        
+                    </tr>
+                    <tr>    
+                        <td><a href="register.html">Register</a></td>
+                        <td>Terms & Conditions</td> 
+                     </tr>
+                    <tr>
+                        <td><a href="request.html">Request</a></td>
+                    </tr>
+                </table>
+                <div class="copyright">
+                    <p style="font-weight:bold">&copy; Copyright 2021 Flatiron School</p>
+                    <p>All rights reserved.</p>
+                    <p>Written & Coded by Caroline Forrester</p>
+                </div>
+            </footer>   
+    </body>
+    <script src="requesttotal.js"></script>   
+</html>
