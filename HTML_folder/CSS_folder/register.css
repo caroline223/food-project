@@ -1,0 +1,101 @@
+.copyright{
+    text-align:center; 
+}
+footer {
+    position:absolute;
+    left:auto;
+    bottom:auto; 
+    width: 97%;
+    color: white; 
+    background-color: rgb(39, 35, 35);
+    margin-top: 0;
+    padding: 10px 0; 
+    font-family: 'parkavenue', cursive;
+}
+.fill-in{
+    border-radius: 15px;
+    background-color: lightgray; 
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 30px;
+    width: 300px;
+    height: 30px; 
+}
+td{
+    text-align:center; 
+    padding: 10px; 
+    color: white; 
+}
+th{
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    text-align:center; 
+    color: white; 
+}
+h3{
+    font-family: 'parkavenue', cursive;
+}
+.heading{
+    text-align:center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(224, 210, 148);
+    font-family: 'Florence', cursive;
+    letter-spacing: 8px; 
+}
+a:link {
+   color:green; 
+   font-size: 14pt;
+}
+a:visited {
+ color:green;
+}    
+a:hover {
+   color:purple;
+}
+a:active {
+   color: blue;
+} 
+.underline{
+    height: 4px;
+    background-color: gray;
+    margin: 0 20px; 
+}
+.together{
+    margin: 0 auto;
+    width: 60%;
+    padding: 25px 0;
+}
+.registergroup {
+    text-align: center; 
+    font-family:'Florence', cursive;
+    float: left;   
+}
+.registerbutton {
+    border:none;
+    border-radius:8px; 
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 50px; 
+    background-color:gray;
+    color:white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.logoadvertising{
+    text-align:left;
+}
+.top{
+    text-align:right;
+    float:right;
+    margin:20px; 
+}
+.tmenu li{
+    display:inline;
+}
+.tsite{
+    padding: 2px; 
+    text-decoration: none; 
+}
