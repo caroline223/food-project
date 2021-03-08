@@ -26,9 +26,7 @@ th{
 .heading{
     text-align:center;
     font-size: 20px;
-    margin-top: 20px;
     color: maroon;
-    margin-bottom: 20px;
     font-family: 'Florence', cursive;
     letter-spacing: 8px; 
 }
@@ -81,7 +79,7 @@ a:active {
 .top{
     text-align:right;
     float:right;
-    margin:20px; 
+    margin:0px; 
 }
 .tmenu li{
     display:inline;
