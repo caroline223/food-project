@@ -86,9 +86,7 @@ th{
     padding: 3px;
     text-align:center; 
 }
-.logoadvertising{
-    text-align:left;
-}
+
 .top{
     text-align:right;
     float:right;
@@ -111,5 +109,11 @@ p{
 }
 .driver{
     padding: 40px; 
+}
+
+.underline{
+    height: 4px;
+    background-color: gray;
+    margin: 0 20px; 
 }
 

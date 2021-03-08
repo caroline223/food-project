@@ -2,7 +2,7 @@ function zipChecker()  {
     var number = document.getElementById('zipCode').value;
     var text;
 
-     if (number >= 10000 && number <= 50000){
+     if (number >= 10000 && number <= 40000){
          text = "We've got your area covered!";
          result.style.color= "green";
      } 
