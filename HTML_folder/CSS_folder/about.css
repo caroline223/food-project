@@ -12,43 +12,35 @@ footer {
     padding: 2em; 
     font-family: 'parkavenue', cursive;
 }
-.fill-in{
-    border-radius: 15px;
-    background-color: lightgrey; 
-    margin-left: 50px;
-    padding: 20px;
-    width: 200px;
-    height: 15px; 
-}
+
 td{
     text-align:center; 
-    padding: 10px; 
+    padding: 3px; 
 }
 th{
     font-weight: bold;
     font-size: large;
-    padding: 10px;
+    padding: 3px;
     text-align:center; 
 }
 .heading{
     text-align:center;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     color: maroon;
     margin-bottom: 20px;
-    color: rgb(224, 210, 148);
     font-family: 'Florence', cursive;
     letter-spacing: 8px; 
 }
+
 h3{
     font-family: 'parkavenue', cursive;
+    text-align:center;
 }
-.row:after{
-    content:"";
-    display: table; 
-    clear:both;  
-    background: gray;
+h2{
+    font-family: 'parkavenue', cursive;
 }
+
 .column {
         text-align: center; 
         font-family:'Florence', cursive;
@@ -97,4 +89,8 @@ a:active {
 .tsite{ 
     padding: 2px; 
     text-decoration: none; 
+}
+p{
+    text-align:center;
+    font-size:20px;
 }
